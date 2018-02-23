@@ -17,7 +17,14 @@ export default {};
 
 <style scoped>
 #visitenkarte {
+  width: 80%;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+img {
+  margin-bottom: 0.8rem;
 }
 
 a {
@@ -25,7 +32,7 @@ a {
   color: black;
 }
 
-@media screen and (max-width: 768px), (orientation: landscape) {
+@media screen and (max-width: 768px) {
   #visitenkarte {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
