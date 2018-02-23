@@ -25,12 +25,21 @@ a {
   color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), (orientation: landscape) {
   #visitenkarte {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #visitenkarte {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
   }
 }
 </style>

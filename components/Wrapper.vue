@@ -30,7 +30,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px), (orientation: landscape) {
   #wrapper {
     height: 330px;
     width: 510px;
