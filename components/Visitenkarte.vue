@@ -17,7 +17,6 @@ export default {};
 
 <style scoped>
 #visitenkarte {
-  width: 80%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 550;
   font-size: 1.5rem;
@@ -34,6 +33,7 @@ a {
 
 @media screen and (max-width: 768px) {
   #visitenkarte {
+    min-width: 340px;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
