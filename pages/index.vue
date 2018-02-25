@@ -13,10 +13,10 @@ export default {
   },
 
   mounted: function() {
-    this.$nextTick(function() {
+    setTimeout(function() {
+      // This hides the address bar:
       window.scrollTo(0, 1);
-      console.log("scrolled");
-    });
+    }, 0);
   }
 };
 </script>
