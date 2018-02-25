@@ -15,6 +15,7 @@ export default {
   mounted: function() {
     this.$nextTick(function() {
       window.scrollTo(0, 1);
+      console.log("scrolled");
     });
   }
 };
