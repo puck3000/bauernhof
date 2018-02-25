@@ -5,7 +5,7 @@
             Anja Pfäffli, Deisswilstrasse 1 <br>
             3256 Bangerten
         </p>
-        <a href="tel:+41793325825"><span>Tel</span>079 332 5825</a><br>
+        <a href="tel:+41793325825"><span>Tel: </span>079 332 58 25</a><br>
         <a href="mailto:info@bangerten.ch">info@bangerten.ch</a>
     </div>
    

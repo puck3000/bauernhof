@@ -10,6 +10,12 @@ import Wrapper from "~/components/Wrapper.vue";
 export default {
   components: {
     Wrapper
+  },
+
+  mounted: function() {
+    this.$nextTick(function() {
+      window.scrollTo(0, 1);
+    });
   }
 };
 </script>
