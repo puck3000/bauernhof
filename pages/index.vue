@@ -10,13 +10,6 @@ import Wrapper from "~/components/Wrapper.vue";
 export default {
   components: {
     Wrapper
-  },
-
-  mounted: function() {
-    setTimeout(function() {
-      // This hides the address bar:
-      window.scrollTo(0, 1);
-    }, 0);
   }
 };
 </script>
