@@ -2,7 +2,7 @@
     <div id="visitenkarte">
         <img src="/BAUERNHOF_LOGOTYPE_POS.svg" alt="Bauernhof Logo">
         <p>
-            Anja Pfäffli, Deisswilstrasse 1 <br>
+            Anja Winkelmann, Deisswilstrasse 1 <br>
             3256 Bangerten
         </p>
         <a href="tel:+41793325825"><span>Tel: </span>079 332 58 25</a><br>
@@ -38,6 +38,7 @@ a {
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
 }
 
@@ -47,6 +48,7 @@ a {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 </style>
