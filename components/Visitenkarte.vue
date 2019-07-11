@@ -2,8 +2,8 @@
     <div id="visitenkarte">
         <img src="/BAUERNHOF_LOGOTYPE_POS.svg" alt="Bauernhof Logo">
         <p>
-            Anja Winkelmann, Deisswilstrasse 1 <br>
-            3256 Bangerten
+            Anja Winkelmann<br>
+            Deisswilstrasse 1, 3256 Bangerten
         </p>
         <a href="tel:+41793325825"><span>Tel: </span>079 332 58 25</a><br>
         <a href="mailto:info@bangerten.ch">info@bangerten.ch</a>
